@@ -29,6 +29,7 @@ input {
     width: 80%;
     padding-left: 10%;
     border-radius: 10px 0 0 10px;
+    caret-color: green;
 }
 
 
@@ -100,4 +101,19 @@ main {
 
 .mdi-check-circle {
     color: green;
+}
+
+@media (max-width: 480px) {
+       input {
+        font-size: 1.3rem;
+        width: 70%;
+        padding-left: 5%;
+        caret-color: green;
+    }
+
+    button.add {
+        width: 30%;
+        height: 100px;
+    }
+    
 }
